@@ -1,0 +1,454 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body{
+  background-color: #FAF8F6;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.header-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 64px;
+}
+.suite-header{
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #172339;
+}
+.request-beta-button{
+  width: 182px;
+  height: 48px;
+  border-radius: 6px;
+  border:  solid 1px;
+  border-color: #172339; 
+  color: #172339;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+.request-beta-button:hover{
+  color: white;
+  background-color: #172339;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.main-text-div{
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+
+}
+.rkali{
+  width: 151px;
+  height: 19px;
+  margin-left: 170px;
+  margin-bottom: 8px;
+}
+.main-div{
+  display: flex;
+  flex-direction: column;
+}
+.photo-and-text-div{
+  display: flex;
+  flex-direction: column;
+}
+.super-solution{
+  width: 343px;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 44px;
+  color: #172339;
+  margin-bottom: 32px;
+}
+.our-marketing{
+  color: #49566D;
+  width: 343px;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 32px;
+}
+.request-beta-button-main{
+  width: 256px;
+  height: 61px;
+  border-radius: 6px;
+  border-color: #172339;
+  border:solid 2px;
+  background-color: #172339;
+  color: white;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 55px;
+}
+.request-beta-button-main:hover{
+  background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.mobile-background{
+  margin: auto;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 343px;
+  height: 240px;
+  border-radius: 15px;
+  background: radial-gradient(100% 100% at 100% 100%, #A060FF 0%, #CB30E3 33.18%, #FFA84E 100%)
+}
+.mobile-photo{
+  position: absolute;
+  bottom: 0%;
+}
+.number-main-div{
+  margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.number-text{
+  display: flex;
+  flex-direction: column;
+}
+.h3-number-text{
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  color: #172339;
+}
+.p-number-text{
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #49566D;
+  margin-bottom: 32px;
+  text-align: center;
+}
+.second-main-div{
+  margin-top: 200px;
+  background-color: #172339;
+  width: 100%;
+  height: 748px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 56px;
+}
+.blue-rect-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  top: -25%;
+}
+.men-photo{
+  width: 252px;
+  height: 404px;
+}
+.second-rkali{
+  width: 49px;
+  height: 40px;
+}
+.second-main-div-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 357px;
+}
+.it-just-works{
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 40px;
+}
+.like{
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: white;
+  width: 343px;
+  margin-bottom: 40px;
+}
+.fullname{
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color:#FAF8F6;
+  margin-bottom: 5px;
+}
+.cmo{
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #F3EDE7;
+}
+.footer-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  background-color: #F3EDE7;
+  height: 420px;
+  z-index: -3;
+  margin-top: -99px;
+  width: 100%;
+  position: absolute;
+  
+
+}
+.suite-footer{
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #172339;
+}
+.Copyright-Suite{
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 32px;
+  color: #49566D ;
+}
+.facebook-div{
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+  margin-bottom: 80px;
+}
+.circle{
+  display: none;
+}
+svg:hover path{
+  cursor: pointer;
+  fill: #F3EDE7;
+
+
+}
+@media(min-width:704px){
+  .header-div{
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+  .request-beta-button{
+    width: 219px;
+    height: 56px;
+    font-size: 16px;
+  }
+  .main-text-div{
+    margin-left: 32px;
+    margin-top: 35px;
+  }
+  .photo-and-text-div{
+    flex-direction: row;
+    position: relative;
+  }
+  .rkali{
+    width: 231px;
+    height: 29px;
+    margin-left: 262px;
+  }
+  .circle{
+    display: block;
+    position: absolute;
+    top: 2%;
+    z-index: -1;
+  }
+  .super-solution{
+    width: 540px;
+    font-size: 56px;
+    line-height: 64px;
+    
+  }
+  .mobile-background{
+    width: 281px;
+    height: 482px;
+    position: absolute;
+    right: 5%;
+    z-index: -1;
+  }
+  .mobile-photo{
+    width: 147px;
+  }
+  .our-marketing{
+    width: 350px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .number-main-div{
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 200px;
+  }
+  .second-main-div{
+    width: 689px;
+    height: 684px;
+    margin: auto;
+    z-index: -2;
+  }
+  .footer-div{
+    align-items: end;
+    position: absolute;
+    z-index: -3;
+    margin-top: 72px;
+    flex-direction: row;
+    margin-bottom: 72px;
+    justify-content: space-between;
+    margin-right: 32px;
+    /* align-items: center; */
+    background-color: #F3EDE7;
+    width: 100%;
+    height: 640px;
+    margin-top: -413px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 72px;
+    
+  }
+  .it-just-works{
+    width: 343px;
+    text-align: center;
+  }
+  .like{
+    width: 573px;
+  }
+
+  .facebook-div{
+    margin-bottom: 0px;
+  }
+}
+@media (min-width:1024px){
+  .header-div{
+    margin-left: 165px;
+    margin-right: 165px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+  .main-div{
+    flex-direction: row;
+    margin-right:50px;
+    justify-content: space-between;
+    margin-bottom: 139px;
+  }
+  .number-main-div{
+    flex-direction: column;
+  }
+  .super-solution{
+    line-height: 78px;
+    font-size: 72px;
+    margin-left: 140px;
+    width: 660px;
+  }
+  .rkali{
+    margin-left: 487px;
+    width: 287px;
+  }
+  .mobile-photo{
+    width: 185px;
+    height: 300px;
+  }
+  .mobile-background{
+    right: -21%;
+    width: 350px;
+    height: 600px;
+  }
+  .our-marketing{
+    margin-left: 140px;
+    font-size: 18px;
+  }
+  .request-beta-button-main{
+    margin-left: 140px;
+  }
+  .number-main-div{
+    gap: 64px;
+  }
+  .second-main-div{
+    width: 1109px;
+    height: 545px;
+  }
+  .blue-rect-div{
+    left: 9%;
+    top: -10%;
+  }
+  .men-photo{
+    width: 375px;
+    height: 600px;
+  }
+  .second-rkali{
+    position: absolute;
+    left: 114%;
+    top: 39%;
+  }
+  .second-main-div-text{
+    margin-top: -230px;
+    margin-left: 545px;
+  }
+  .it-just-works{
+    text-align: start;
+  }
+  .like{
+    width: 350px;
+    text-align: start;
+  }
+  .circle{
+    top: 40%;
+  }
+  .fullname{
+    text-align: start;
+    margin-left: -190px;
+  }
+  .cmo{
+    text-align: start;
+    margin-left: -275px;
+  }
+  .footer-div{
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-bottom: 78px;
+    
+  }
+
+}
